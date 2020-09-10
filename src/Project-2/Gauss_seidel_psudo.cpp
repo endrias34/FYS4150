@@ -8,8 +8,7 @@ void Gauss seidel(){
 
 	while dist(X_new- X_past) > epsilon k++:
 
-		for i in range(len(b)):
-		for (i=0; i < row_length to a; i++){
+		for (i=0; i < row length to a; i++){
 
 			for (j = 0; j < column length to a; j++){
 				if (j < i){
