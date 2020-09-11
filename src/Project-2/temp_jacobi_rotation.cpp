@@ -1,4 +1,4 @@
-
+// Just a quick copy of Mortens layout
 
 
 void Jacobi_rotate (mat A, mat R, int k, int l, int n){
@@ -9,8 +9,8 @@ void Jacobi_rotate (mat A, mat R, int k, int l, int n){
 		double t, tau;
 		tau = (A[l, l] - A[k, k])/(2*A[k, l]);
 
-		if ( tau >= 0) t = 1.0/ (tau + sqrt(1 + tau*tau) )
-		if ( tau < 0) t = -1.0/ (-tau + sqrt(1 + tau*tau) )
+		if ( tau >= 0) t = 1.0/ (tau + sqrt(1 + tau*tau) );
+		if ( tau < 0) t = -1.0/ (-tau + sqrt(1 + tau*tau) );
 
 	c = 1/sqrt(1+(t*t));
 	s = c*t;
