@@ -10,7 +10,7 @@ script before this just means you could actually copy
 the code from the run_script.sh and paste it in the  
 command line window) 
 
-The for plotting, use the ipython note book.  
+For plotting, use the ipython notebook.  
 Remeber to change the directory of the textfile.  
 
 
