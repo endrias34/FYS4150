@@ -1,6 +1,6 @@
 
 To reproduce our results from the report, use  
-makefile for compiling. Commenting out or in the 
+makefile for compiling. Commenting out or in the  
 program you want to run.  
   
 Then for easy execution of different variables in the  
