@@ -5,7 +5,7 @@ CPPflags= c++ -O3
 # Here we define the library functions we nee
 LIB = -larmadillo -llapack -lblas
 
-# -------------------------------------------------------------------------------- #
+# -------------------- Beam --------------------------- #
 # Here we define the name of the executable
 # PROG = runme_beam
 # ${PROG} :	initialize.o  main_beam.o  jacobi.o
@@ -21,7 +21,7 @@ LIB = -larmadillo -llapack -lblas
 # 		        	${CPPflags} -c jacobi.cpp
 
 
-# -------------------------------------------------------------------------------- #
+# ---------------------One Electron-------------------------------------------- #
 
 # Here we define the name of the executable
 # PROG = runme_one_electron
@@ -37,7 +37,7 @@ LIB = -larmadillo -llapack -lblas
 # jacobi.o :		    jacobi.cpp 
 # 		        	${CPPflags} -c jacobi.cpp
 
-# -------------------------------------------------------------------------------- #
+# ---------------------Two Electrons--------------------------------------------- #
 
 # Here we define the name of the executable
 PROG = runme_two_electrons
@@ -53,7 +53,7 @@ main_two_electrons.o :		main_two_electrons.cpp
 jacobi.o :		    jacobi.cpp 
 		        	${CPPflags} -c jacobi.cpp
 
-# -------------------------------------------------------------------------------- #
+# -----------------------Unit Test--------------------------------------- #
 
 #PROG = runme_test
 #${PROG} :	unit_tests.o  test_main.o  jacobi.o
