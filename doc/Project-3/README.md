@@ -6,4 +6,4 @@ Their sizes is heuristics approximations.
 ![](Solar.gif)
 
 
-![Description](test.png)
+![Description](test.png = 250x250)
