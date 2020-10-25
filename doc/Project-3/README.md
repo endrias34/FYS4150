@@ -2,3 +2,7 @@ Simulation of the Sun, Mercury, Venus, Earth, Mars, Jupiter, in that order from 
 Their sizes is heuristics approximations.
 
 ![](test3.gif)
+  
+    
+
+![](Solar.gif)
