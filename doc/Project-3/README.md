@@ -7,6 +7,6 @@ Their sizes is heuristics approximations.
 
 ![](Solar.gif)
 
-<img src="https://github.com/endrias34/FYS4150/edit/master/doc/Project-3/test.png" width="150">
+<img src="test.png" width="150">
 
 ![](planetaryorbits.png)
