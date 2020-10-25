@@ -5,7 +5,7 @@ if you want to have a loook at those planet also.
 Their sizes is heuristics approximations.
 
 <p align="center">
-  ![](Solar.gif)
+  <img src="Solar.gif">
 </p>
 
 
