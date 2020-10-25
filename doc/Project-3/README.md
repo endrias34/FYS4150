@@ -10,4 +10,4 @@ Their sizes is heuristics approximations.
 
 ![](test.png)  
 
-![](planetaryorbit.png)
+![](planetaryorbits.png)
