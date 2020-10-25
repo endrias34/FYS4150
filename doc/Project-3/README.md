@@ -12,6 +12,3 @@ The planet sizes is a heuristics approximations.
   <img src="test.png">  
 </p>
 
-<p align="center">
-  <img src="planetaryorbits.png">
-</p>
