@@ -4,10 +4,14 @@ a look at Uranius or Neptune, but you are welcome to use the python file, to cha
 if you want to have a loook at those planet also.
 Their sizes is heuristics approximations.
 
+<p align="center">
+  ![](Solar.gif)
+</p>
 
-![](Solar.gif)
 
-<img src="test.png">  
+<p align="center">
+  <img src="test.png">  
+</p>
 <p align="center">
   <img src="planetaryorbits.png">
 </p>
