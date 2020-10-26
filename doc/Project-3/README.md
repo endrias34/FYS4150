@@ -12,5 +12,5 @@ In this gif you will after a while see Pluto at the top. The planet sizes is a h
 </p>
 
 <p align="center">
-  <img src="Description.png">  
+  <img src="description.png">  
 </p>
