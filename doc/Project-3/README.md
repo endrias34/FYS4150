@@ -8,9 +8,9 @@ You will then be able to see Uranus and Neptune also, and simulate it for a long
 In this gif you will after a while see Pluto at the top. The planet sizes is a heuristics approximations.  
 
 <p align="center">
-  <img src="Solar_sys.gif">
+  <img src="Solar_system.gif">
 </p>
 
 <p align="center">
-  <img src="test.png">  
+  <img src="Description.png">  
 </p>
