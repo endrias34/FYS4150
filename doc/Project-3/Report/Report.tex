@@ -462,12 +462,12 @@ Proof of conservation:
 \end{align}
 
 
-det = $( (1 - \omega^2h^2) * 1 - h* (-\omega^2h))^{n} = 1^n$. We notice that the local error of the Euler-Cromer method is the same as the Forward Euler, $\epsilon = O(h^2)$. Finally, we provide a pseudo-code for the Euler-Cromer algorithm in Algorithm \ref{euler-cromer}.
+det = $( (1 - \omega^2h^2) * 1 - h* (-\omega^2h))^{n} = 1^n$. We notice that the local error of the Euler-Cromer method is the same as the Forward Euler, $\epsilon = O(h^2)$. Finally, we provide a pseudo-code for the Euler-Cromer algorithm.
 
 \begin{algorithm}[H]
 \caption{Euler-Cromer}
 \textbf{Initial conditions:} $\mathbf{x_0}$ and $\mathbf{v_0}$ \\
-\textbf{Input:} $h$
+\textbf{Input:} $h$, $N$
 \begin{algorithmic}[1]
 \While{$i\leq N$}
 \For{\texttt{<each dimension>}}
