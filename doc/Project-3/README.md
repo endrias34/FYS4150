@@ -7,7 +7,7 @@ which makes the orbits look a bit weird. They still orbits in the same plane, an
 you to download 3d_simulation.zip from the codes and dragging the angle around as you wish. You will then  
 be able to see Uranus and Neptune also. If you are a bit familiar with python plotting, you can also turn  
 the axis on, to see the plane better. In this gif you will after a while see Pluto at the top,  
-which actually have different orbit. The planet sizes is a heuristics approximations.
+which actually orbit in a different plane. The planet sizes is a heuristics approximations.
 
 <p align="center">
   <img src="Solar.gif">
