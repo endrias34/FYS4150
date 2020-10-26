@@ -27,9 +27,9 @@ values = return_values(0)
 
 fig, ax = plt.subplots(figsize=(14,13))
 ax = fig.add_subplot(111, projection='3d')
-ax.set_xlim3d([-3, 3]); ax.set_xlabel('X'); ax.set_ylim3d([-3, 3]); ax.set_ylabel('Y'); ax.set_zlim3d([-0.25, 0.25]); ax.set_zlabel('Z')
+ax.set_xlim3d([-3, 3]); ax.set_xlabel('X'); ax.set_ylim3d([-3, 3]); ax.set_ylabel('Y'); ax.set_zlim3d([-15, 15]); ax.set_zlabel('Z')
 ax.set_facecolor('xkcd:black')
-ax.view_init(elev=+40., azim=+120)
+ax.view_init(elev=+10., azim=+125)
 ax.set_axis_off()
 ax.axis('off')
 
