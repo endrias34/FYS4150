@@ -2,10 +2,11 @@
   
 
 Simulation of the Sun, Mercury, Venus, Earth, Mars, Jupiter, Saturn, in that order from the center.  
-After a while you will also see Pluto, which you will notice have another orbit. We are not able to get  
-a look at Uranius or Neptune, but you are welcome to use the python file, to change angle, axis ect,  
-if you want to have a look at those planet also. Download all files from Results, and use Solar_sim.py,  
-or the 3d_simulation.zip in src. The planet sizes is a heuristics approximations.
+The angle is choosen in such a way that we observe as many planets as possible in this time interval,  
+which makes the orbits look a bit weird. They still orbits in the same plane, and we encourage  
+you to download 3d_simulation.zip from the codes and dragging the angle around as you wish. You will then  
+be able to see Uranus and Neptune also. After a while in this gif you will see Pluto at the top,  
+which actually have different orbit. The planet sizes is a heuristics approximations.
 
 <p align="center">
   <img src="Solar.gif">
