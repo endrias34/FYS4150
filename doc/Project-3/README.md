@@ -10,7 +10,7 @@ the axis on, to see the plane better. In this gif you will after a while see Plu
 which actually orbit in a different plane. The planet sizes is a heuristics approximations.
 
 <p align="center">
-  <img src="Solar.gif">
+  <img src="Solar_sys.gif">
 </p>
 
 <p align="center">
