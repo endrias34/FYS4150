@@ -21,4 +21,7 @@ If you want to configure through commandline write
 ./runme 1  
 
 and you will get an error where what to be put in is give  
+  
+If your compiler is not working we have provided a runme file for you  
+
 
