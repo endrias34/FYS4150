@@ -71,7 +71,7 @@ int main(int argc, char *argv[])
   T_0 = 2; T_n = 3, dN_T = 0.2; n_temps = 1;
 
   // N in the NxN lattice, (ordered spins = 1 means all spins starts value = 1, order = 0 gives random spins 1 or -1 for each spin)
-  n_spins = new int [1]; n_spins[0] = 4; n_spin_size = 1; order = 0; 
+  n_spins = new int [1]; n_spins[0] = 20; n_spin_size = 1; order = 0; 
 
   // Values to print out. If probability_dist is set to 1 Energy values after 600000 are saved (will slow down the speed)
   // print_x_MC_cycle you can set to a value at which you want Energy, Magnetization, ect. something like 10000 or 100000
@@ -90,7 +90,7 @@ int main(int argc, char *argv[])
   // method_to_use = 3 -> splitting the numbers of MC cycles on threads available, where each 
   //                      start their own system and do a total of ((MC cycles)/(threads used)) MC cycle each
   //                      then averaging over all runs. (Similar to model averaging in statistics).
-  method = 0;
+  method = 3;
 
 
 
