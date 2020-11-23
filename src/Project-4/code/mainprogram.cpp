@@ -48,13 +48,6 @@ int main(int argc, char *argv[])
   }
 
 
-  //////// TESTS //////////
-  periodic_test();
-  check_boundary_matrix();
-  rng_initialization();
-  /////   END TESTS   /////
-
-
   double T_0, T_n, dN_T;  // Minumum temp to initialize system with, T_0, maximum, T_n, and steps starting from T_0, dN_t
   int MC_samples, n_temps, configuration, order, threads, method, n_spin_size, probability_dist, print_every_x_MC_cycle;
   std::ofstream* prob_outfile;
@@ -134,7 +127,13 @@ int main(int argc, char *argv[])
       if (argc >= 10) threads = atoi(argv[9]);
       if (argc == 11) method = atoi(argv[10]);
       n_temps = (double) ((T_n+epsilon+dN_T) - T_0)/ dN_T;
-      if (n_temps == 0) n_temps = 1; // Setting number of temperatures to run at least to 1
+      if (n_temps == 0) n_temps = 1; // Setting number of temperatures to run at least to 1      
+      
+      //////// TESTS //////////
+      periodic_test();
+      check_boundary_matrix();
+      rng_initialization();
+      /////   END TESTS   /////
 
     }
   }
@@ -183,6 +182,11 @@ int main(int argc, char *argv[])
       "start their own system and do a total of ((MC cycles)/(threads used)) MC cycle each "
       "then averaging over all runs. (Similar to model averaging in statistics). \n \n "; std::cin >> method;
     }
+    //////// TESTS //////////
+    periodic_test();
+    check_boundary_matrix();
+    rng_initialization();
+    /////   END TESTS   /////
   }
 
 
