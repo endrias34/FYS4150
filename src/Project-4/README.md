@@ -22,9 +22,9 @@ setting your own configurations, and the other one is the configurations set bet
 ```
 ./runme 1  
 ```
-and you will get an error where what to be put in is given.  
+and you will get an error, stating what to input to make the code run correctly.  
 
-Example:
+## Example of correct input commands:
 
 ```
 ./runme 20 6 2 2.4 0.05  
