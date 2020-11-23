@@ -1,4 +1,5 @@
 
+[Link to documents](https://github.com/endrias34/FYS4150/tree/master/doc/Project-4)
 
 # To run the program put all files in a folder and write:
 
