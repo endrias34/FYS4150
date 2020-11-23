@@ -1,12 +1,12 @@
 
 
-# To run the program put all files in a folder and write
+# To run the program put all files in a folder and write:
 '''
-"make" 
+make 
 '''
 on the commandline in your shell.
 
-Makefile use g++ version for compiling and if you do not have it, open Makefile change line 4  
+The makefile use g++ version for compiling and if you do not have it, open Makefile change line 4  
 to something like  
   
 CPPflags= c++ -fopenmp -O3 -std=c++11  
