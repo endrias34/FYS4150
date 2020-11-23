@@ -17,13 +17,15 @@ setting your own configurations, and the other one is the configurations set bet
 
 
 If you want to configure through commandline write  
-
+'''
 ./runme 1  
-
+'''
 and you will get an error where what to be put in is given.  
 
-Example
+Example:
+'''
 ./runme 20 6 2 2.4 0.05  
+'''
 means 20x20 lattice, 10^6 MC cycles, start temperature = 2,  
 end temperature = 2.4, steps  between temperatures = 0.05  
 
