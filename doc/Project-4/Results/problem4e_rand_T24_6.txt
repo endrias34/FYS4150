@@ -1,0 +1,2 @@
+ Num spins       Tempreature         MC cycles       Mean energy      Mean abs mag          Mean mag        Energy var      Mean abs var          Heat cap          Mag susc        Acc states
+        20         2.4000000           1000000        -1.2376659        0.45660879     -0.0049647700         8.0559107         21.022363         1.3985956         8.7593177         107625852
