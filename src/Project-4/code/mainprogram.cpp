@@ -105,7 +105,7 @@ int main(int argc, char *argv[])
       std::cout << "\n\nBad Usage: " << argv[0] << 
       " read N as in NxN spins, MC cycles to the as the power of 10, initial"
       " and final temperature, tempurate step : \n\n"
-      "           ./runme 20 6 2 2.4 0.05. \n\n If you want you can after the 0.05 input 0 for unorder"
+      "           ./runme 20 6 2 2.4 0.05 \n\n If you want you can after the 0.05 input 0 for unorder"
       " or 1 for order, then a 0 or 1 for saving Energy levels after 600000 MC_cycles(will slow down computations)."
       " After that if you want the different values saved for every 10^x MC cycles enter your x (4 or 5 is probably good)"
       " while a 0 is just saving a summary at after all MC cycles is done for each temperature."
