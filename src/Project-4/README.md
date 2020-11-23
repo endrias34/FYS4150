@@ -1,9 +1,10 @@
 
 
 # To run the program put all files in a folder and write:
-'''
+
+```
 make 
-'''
+```
 on the commandline in your shell.
 
 The makefile use g++ version for compiling and if you do not have it, open Makefile change line 4  
