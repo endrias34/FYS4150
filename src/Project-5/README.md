@@ -13,14 +13,14 @@ is 10 spins.
 
 Second argument is if you want the system ordered or not :  
 
-./a.out 10 1   -> is a systems with 10 spins, started with all 1's
-./a.out 10 0   -> is a systems with 10 spins, started -1 or 1 as opinon drawn from unifrom distribution.
+./a.out 10 1   -> is a systems with 10 spins, started with all 1's  
+./a.out 10 0   -> is a systems with 10 spins, started -1 or 1 as opinon drawn from unifrom distribution.  
 
 Third argument and fourth argument is to decide if you want to save the system to file at each step inputed    
 3 = steps, 4 = magnetization or spins (0 for magnetizations and 1 for spins)
   
-./a.out 10 0 10 1  -> 10 spins, unordered, where each spin is saved to file every 10'th MC cycle
-./a.out 10 0 0 0  -> 10 spins, unordered, and now we run 1000 systems and save the magnetizations from all the systems to one file
+./a.out 10 0 10 1  -> 10 spins, unordered, where each spin is saved to file every 10'th MC cycle  
+./a.out 10 0 0 0  -> 10 spins, unordered, and now we run 1000 systems and save the magnetizations from all the systems to one file  
 
 Fifth argument is concentration level  
   
