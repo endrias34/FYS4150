@@ -5,7 +5,7 @@ To compile write :
 g++ -fopenmp IsingSocialMain.cpp
 ```
   
-./a.out is created  
+a.out is created  
 
 To run it your first argument will be how big of a system (#n agents)  
 
