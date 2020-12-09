@@ -29,7 +29,7 @@ Fifth argument is concentration level
 cB * N unordered  :  
 ./a.out 10 0 10 0 0.9  -> 10 = spins, 0 = unordered, 10 = save every 10'th MC cycle, 0 = Magnetization, 0.9 = 90% spins started with -1  
 
-cB * N with the concentration cB starting in a cluster for index 0 to inde cB * N :  
+cB * N with the concentration cB starting in a cluster for index 0 to index cB * N :  
 ./a.out 10 1 10 0 0.9  -> 10 = spins, 1 = ordered, 10 = save every 10'th MC cycle, 0 = Magnetization, 0.9 = 90% spins started with -1  
 
 
