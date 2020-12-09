@@ -25,8 +25,14 @@ Third argument and fourth argument is to decide if you want to save the system t
 ./a.out 10 0 0 0  -> 10 spins, unordered, and now we run 1000 systems and save the magnetizations from all the systems to one file  
 
 Fifth argument is concentration level  
-  
+
+cB * N unordered  :  
 ./a.out 10 0 10 0 0.9  -> 10 = spins, 0 = unordered, 10 = save every 10'th MC cycle, 0 = Magnetization, 0.9 = 90% spins started with 1  
+
+cB * N with the concentration cB starting in a cluster for index 0 to inde cB * N :  
+./a.out 10 1 10 0 0.9  -> 10 = spins, 1 = ordered, 10 = save every 10'th MC cycle, 0 = Magnetization, 0.9 = 90% spins started with 1  
+
+
 
 sixth argument is chance of not following the rules  
   
