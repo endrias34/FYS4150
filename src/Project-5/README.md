@@ -7,7 +7,7 @@ g++ -fopenmp IsingSocialMain.cpp
   
 a.out is created  
 
-To run it your first argument will be how big of a system (#n agents)  
+To run it your first argument will be how big of a system (#n spins)  
 
 ./a.out 10 
 
