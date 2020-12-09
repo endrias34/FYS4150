@@ -40,7 +40,7 @@ sixth argument is chance of not following the rules
 10 = spins, 0 = unordered, 10 = save every 10'th MC cycle,   
 0 = Magnetization, 0.9 = 90% spins started with 1, 0.000002 = 0.00002% chance of not following the rule
   
-or with all spins starting with -1
+or with all spins starting with -1  :  
 ./a.out 10 0 10 0 1 0.000002  -> 
 10 = spins, 0 = unordered, 10 = save every 10'th MC cycle,   
 0 = Magnetization, 1 = all spins -1, 0.000002 = 0.00002% chance of not following the rule
