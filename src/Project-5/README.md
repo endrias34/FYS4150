@@ -11,20 +11,20 @@ To run it your first argument will be how big of a system (#n agents)
 
 is 10 agents.
 
-Second argument is if you want the system ordered or not :
+Second argument is if you want the system ordered or not :  
 
 ./a.out 10 1   -> is a systems with 10 agents, started with all 1's
 ./a.out 10 0   -> is a systems with 10 agents, started -1 or 1 as opinon drawn from unifrom distribution.
 
-Third argument and fourth argument is to decide if you want to save the system to file at each step inputed  
+Third argument and fourth argument is to decide if you want to save the system to file at each step inputed    
 3 = steps, 4 = magnetization or spins (0 for magnetizations and 1 for spins)
 ./a.out 10 0 10 1  -> 10 agents, unordered, where each spin is saved to file every 10'th MC cycle
 ./a.out 10 0 0 0  -> 10 agents, unordered, and now we run 1000 systems and save the magnetizations from all the systems to one file
 
-Fifth argument is concentration level
+Fifth argument is concentration level  
 ./a.out 10 0 10 0 0.9  -> 10 = agents, 0 = unordered, 10 = save every 10'th MC cycle, 0 = Magnetization, 0.9 = 90% spins started with 1  
 
-sixth argument is chance of not following the rules
+sixth argument is chance of not following the rules  
 ./a.out 10 0 10 0 0.9 0.000002  -> 
 10 = agents, 0 = unordered, 10 = save every 10'th MC cycle,   
 0 = Magnetization, 0.9 = 90% spins started with 1, 0.000002 = 0.00002% chance of not following the rule
