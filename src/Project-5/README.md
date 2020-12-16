@@ -21,7 +21,7 @@ Then there are several other applications you can input :
 ###### Second argument is if you want the system ordered or not :  
 
 ./a.out 10 1   -> is a systems with 10 spins, started with all 1's  
-./a.out 10 0   -> is a systems with 10 spins, started -1 or 1 as opinon drawn from unifrom distribution.  
+./a.out 10 0   -> is a systems with 10 spins, each started -1 or 1 drawn from the unifrom distribution.  
    
    <br>
    
