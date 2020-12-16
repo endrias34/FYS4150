@@ -25,7 +25,7 @@ Then there are several other applications you can input :
    
    <br>
    
-###### Third argument and fourth argument is to decide if you want to save the system to file at each step inputed    
+###### Third argument and fourth argument is to decide if you want to save the system to file at each step inputed and how    
 3 = steps, 4 = magnetization or spins (0 for magnetizations and 1 for spins)
   
 ./a.out 10 0 10 1  -> 10 spins, unordered, where each spin is saved to file every 10'th MC cycle  
