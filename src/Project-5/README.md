@@ -12,16 +12,16 @@ To run it your first argument will be how big of a system (#n spins)
 ./a.out 10 
 
 is 10 spins.
-
-  
-  
+   
+   
+   
 Second argument is if you want the system ordered or not :  
 
 ./a.out 10 1   -> is a systems with 10 spins, started with all 1's  
 ./a.out 10 0   -> is a systems with 10 spins, started -1 or 1 as opinon drawn from unifrom distribution.  
-
-  
-  
+   
+   
+   
 Third argument and fourth argument is to decide if you want to save the system to file at each step inputed    
 3 = steps, 4 = magnetization or spins (0 for magnetizations and 1 for spins)
   
