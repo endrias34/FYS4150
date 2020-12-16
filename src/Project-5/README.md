@@ -7,14 +7,17 @@ g++ -fopenmp IsingSocialMain.cpp
   
 a.out is created  
 
-To run it your first argument will be how big of a system (#n spins)  
+To run you will need to input one argument, how big of a system (#n spins)  
 
 ./a.out 10 
 
 is 10 spins.
    
    <br>
-   
+
+Then there are several other applications you can input :
+   <br>
+
 Second argument is if you want the system ordered or not :  
 
 ./a.out 10 1   -> is a systems with 10 spins, started with all 1's  
