@@ -27,9 +27,12 @@ Then there are several other applications you can input :
    
 ###### Third argument and fourth argument is to decide if you want to save the system to file at each step inputed and how    
 3 = steps, 4 = magnetization or spins (0 for magnetizations and 1 for spins)
+      
+if steps is set to 0 we make a 1000 systems and divide it on numbers of threads available on your computer
   
 ./a.out 10 0 10 1  -> 10 spins, unordered, where each spin is saved to file every 10'th MC cycle  
-./a.out 10 0 0 0  -> 10 spins, unordered, and now we run 1000 systems and save the magnetizations from all the systems to one file  
+./a.out 10 0 0 0  -> 10 spins, unordered, and now we run 1000 systems and save the final magnetizations from all the systems to one file  
+./a.out 10 0 0 1  -> 10 spins, unordered, and now we run 1000 systems and save the final spins from all the systems to one file  
 
   <br>
   
