@@ -44,9 +44,19 @@ or with all spins starting with -1  :
 ./a.out 10 0 10 0 1 0.000002  -> 
 10 = spins, 0 = unordered, 10 = save every 10'th MC cycle,   
 0 = Magnetization, 1 = all spins -1, 0.000002 = 0.00002% chance of not following the rule
-
-
-
+  
+  
+seventh argument is whether to apply boundary conditions or not  
+ 
+# BOUNDARY
+./a.out 10 0 10 0 0.9 1 1  -> 
+10 = spins, 0 = unordered, 10 = save every 10'th MC cycle,   
+0 = Magnetization written out, 0.9 = 90% spins started with 1, 1 = following the rules, 1 = boundary conditions
+  
+# NO BOUNDARY
+./a.out 10 0 10 0 0.9 1 0  -> 
+10 = spins, 0 = unordered, 10 = save every 10'th MC cycle,   
+0 = Magnetization written out, 0.9 = 90% spins started with 1, 1 = following the rules, 1 = boundary conditions
 
 
 
